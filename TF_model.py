@@ -3,7 +3,7 @@ Use case: Deep learning for high content imaging
 Description: Base TF model class from which other models inherit
 Baseline definitions are for a tensorflow model, but derived classes
 can work with keras models
-Author: yr897021
+Author: yhr91
 
 """
 
@@ -17,10 +17,6 @@ from TF_data import *
 from Helpers import *
 from keras.callbacks import TensorBoard
 
-
-### Create a base ML_model class and inherit TF_model from there
-#### class ML_model():
-#####
 
 class TF_model():
 
