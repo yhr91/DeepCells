@@ -1,9 +1,10 @@
 <h1>DeepCells</h1>
 
-- DeepCells is an easy to use Python framework for training deep learning models using data generated from high content cellular microscopy images.
-- The main advantages of using this package is that it is able to automate the analysis design process as well as scale to very large datasets.
-- There are three main .py files that encode the functionality to train a given deep learning model to classify cellular images. They also allow the user to perform inference eon a trained model.
-- A sample deep learning model file that inherits from TF_model is also provided under the models directory.
+- <b>DeepCells</b> is an easy to use Python framework for training deep learning models using data generated from high content cellular microscopy images. It is able to automate metadata parsing and typical data pre-processing steps. It scales easily to very large datasets using LMDB.
+- <b>TF_model</b>: Class for defining the tensorflow graph and for all related interactions including training, inference
+- <b>TF_data</b> - Class for handling data manipulation, metadata, file I/O 
+- <b>TF_ops</b> - Tensorflow function call wrappers
+- A sample graph that inherits from TF_model is provided under the models directory
 
 DeepCells was originally created by Yusuf Roohani while working at GlaxoSmithKline LLC
 
