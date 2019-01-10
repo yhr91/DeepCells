@@ -1,7 +1,7 @@
 """
 Use case: Deep learning for high content imaging
 Description: Data reading, writing and manipulation class for TF models
-Author: yr897021, unless otherwise stated
+Author: yhr91, unless otherwise stated
 TO-DO: TF_data_set class needs to be finished, likely it will be
 merged with parent
 clearly position mean and normalization
